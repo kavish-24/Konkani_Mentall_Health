@@ -1,0 +1,22 @@
+You are a strict text-matcher. Do not guess or compensate.
+
+Goal:
+Match each small segment to the exact matching text in the large transcript. 
+If a segment does NOT clearly exist in the transcript, ignore it completely — do not try to estimate or improvise a match.
+
+Output Format:
+Return ONLY a CSV table (so I can save it as Excel) with columns:
+
+file_name, matched_text
+
+Rules:
+• Only include rows where there is clear, strong text match.
+• If no clear match exists, SKIP that segment (do not mention it).
+• Do not add explanations.
+• Do not add extra text — only plain CSV.
+
+Segments:
+[PASTE ALL SEGMENTS HERE EXACTLY]
+
+Full Transcript:
+[PASTE FULL TRANSCRIPT HERE]
